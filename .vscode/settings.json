@@ -1,0 +1,20 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "markdownlint.config": {
+    "MD024": {
+      "allow_different_nesting": true,
+      "siblings_only": true
+    }
+  },
+  "python.testing.pytestArgs": ["tests", "-rA", "-s", "-vvl"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
